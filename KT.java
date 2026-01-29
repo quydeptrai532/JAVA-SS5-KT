@@ -123,7 +123,7 @@ public class KT {
         }
 
         System.out.print("Nhập chuỗi cần tìm: ");
-        String keyword = sc.nextLine().toLowerCase();
+        String keyword = sc.nextLine().toLowerCase().trim();
 
         boolean found = false;
         for (int i = 0; i < count; i++) {
@@ -170,3 +170,4 @@ public class KT {
     }
 
 }
+
